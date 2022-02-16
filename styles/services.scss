@@ -1,0 +1,89 @@
+.services{
+    margin-top: 97px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .services-bg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: url('/icons/services/text_bg.svg');
+    }
+    .services-secondary-heading{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+        color: #5E6282;
+        margin-bottom: 0px;
+    }
+    .services-primary-heading{
+        font-family: Volkhov;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 10px;
+        // line-height: 64px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #14183E;
+    }
+    .services-card-container{
+        margin-top: 66px;
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+        .services-card{
+            width: 220px;
+            height: 227px; 
+            .icon-container{
+                width: 72px;
+                height: 58px;
+                margin: 0 auto;   
+            }
+            h5{
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                text-align: center;
+                color: #1E1D4C;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 15px;
+                line-height: 26px;
+                text-align: center;
+                color: #5E6282;
+            }
+        } 
+    }
+    .selected-card{
+        position: relative;
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        border-radius: 36px;
+        width: 267px;
+        height: 314px;
+        // padding: 40px;
+        .selected-card-floating{
+            position: absolute;
+            content: url('/icons/services/Rectangle 157.svg');
+            bottom:0;
+            margin-bottom: -10px;
+            margin-left: -20px;
+            z-index: -1;
+        }
+    }
+}

@@ -1,0 +1,113 @@
+.header{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Volkhov', serif;
+    position: relative;
+    .header-floating-img{
+        content: url('/icons/hero_icons/Decore.svg');
+        position: absolute;
+        z-index: -1;
+        top:0;
+        right: 0;
+    }
+    .header-content-container{
+        margin-left: 50px;
+        margin-right: 50px;
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            ul{
+                display: flex;
+                gap: 55px;
+            }
+            a{
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 22px;
+                text-decoration: none;
+                color: #212832;
+            }
+            .sign_up{
+                border: 1px solid #212832;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 10px;
+                
+            }
+        }
+        .hero{
+            display: flex;
+            .secondary-text{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 30px;
+                text-transform: uppercase;
+                color: #DF6951;
+            }
+            .primary-text{
+                font-family: Volkhov;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 70px;
+                line-height: 100px;
+                // letter-spacing: -0.04em;
+                color: #181E4B;
+                .underline-container{
+                    position: relative;
+                    
+                }
+                .underline-text{
+                    position: absolute;
+                    content: url('/icons/hero_icons/underline.svg');
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    margin-top: -10px;
+                    margin-left: -30px;
+                }
+            }
+            .tertiary-text{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 30px;
+                color: #5E6282;
+            }
+            .cta{
+                button{
+                    background: #F1A501;
+                    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+                    border-radius: 10px;
+                    font-family: Google Sans;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: none;
+                    padding: 10px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    
+                }
+            }
+        }
+    }
+    
+    
+
+    
+}
+
+li{
+    list-style: none;
+}

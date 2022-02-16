@@ -1,0 +1,58 @@
+.footer{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    .logo{
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 124.5%;
+            color: #5E6282;
+        }
+    }
+    .navs{
+        gap: 73px;
+        h6{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 18px;
+            // line-height: 124.5%;
+            color: #080809;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        li{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 124.5%;
+            padding-bottom: 8px;
+            cursor: pointer;
+            color: #5E6282;
+        }
+    }
+    .socials{
+        h6{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 124.5%;
+            color: #5E6282;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    .download-links{
+        gap:20px;
+    }
+}
+.footer-gap{
+    gap: 200px;
+    justify-content: center;
+    align-items: start;
+}
