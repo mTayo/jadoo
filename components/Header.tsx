@@ -65,7 +65,7 @@ const Header = () => {
                         </div>
                         <div className='hero-right'>
 
-                            <img src="/images/hero_images/image.svg" alt="Jadoo hero image"/>
+                            <img src="/images/hero_images/hero_image.png" alt="Jadoo hero image"/>
                         </div>
                     </div>
                 </div>
