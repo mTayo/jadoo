@@ -20,7 +20,6 @@ const Home: NextPage = () => {
       <Subscription />
       <Footer />
     </div>
-
   )
 }
 

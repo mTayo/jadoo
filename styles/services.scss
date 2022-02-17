@@ -12,6 +12,7 @@
         position: absolute;
         top: 0;
         right: 0;
+        z-index: -1;
         content: url('/icons/services/text_bg.svg');
     }
     .services-secondary-heading{
@@ -85,5 +86,56 @@
             margin-left: -20px;
             z-index: -1;
         }
+    }
+}
+
+
+// Responsive
+@media (max-width: 900px) {
+    .services{
+        margin-top: 97px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        .services-secondary-heading{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 27px;
+            text-align: center;
+            color: #5E6282;
+            margin-bottom: 0px;
+        }
+        .services-primary-heading{
+            font-family: Volkhov;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            margin-top: 10px;
+            // line-height: 64px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #14183E;
+        }
+        .services-card-container{
+            margin-top: 66px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 60px;
+            .services-card{
+                width: 220px;
+                height: 227px; 
+                margin: 0 auto;
+                .icon-container{
+                    width: 72px;
+                    height: 58px;
+                    margin: 0 auto;   
+                }
+            
+            } 
+        }
+        
     }
 }

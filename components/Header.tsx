@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 const Header = () => {
     return (
@@ -37,9 +38,14 @@ const Header = () => {
                                 </a>
                             </li>
                             <li>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.9 }}
+                            >
                                 <a href='#' className='sign_up'>
-                                Sign Up
+                                Sign&nbsp;Up
                                 </a>
+                            </motion.div>
                             </li>
                         </ul>
                     </nav>
@@ -58,14 +64,25 @@ const Header = () => {
                                 Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
                             </p>
                             <div className='cta'>
-                                <button>
-                                    Find out more
-                                </button>
+                                <motion.div
+                                    whileTap={{ scale: 0.9 }}
+                                >
+                                    <button>
+                                        Find out more
+                                    </button>
+                                </motion.div>
                             </div>
                         </div>
                         <div className='hero-right'>
-
-                            <img src="/images/hero_images/hero_image.png" alt="Jadoo hero image"/>
+                            <motion.div
+                             animate={{
+                                scale: [0.5, 1],
+                              }}
+                                // animate={{ scale: 1 }}
+                                // transition={{ duration: 0.5 }}
+                            >
+                                <img src="/images/hero_images/hero_image.png" alt="Jadoo hero image"/>
+                            </motion.div>
                         </div>
                     </div>
                 </div>

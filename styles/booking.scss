@@ -1,10 +1,11 @@
 .booking{
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 50px;
     // align-content: space-around;
     gap:118px;
     align-items: center;
+    justify-content: center;
     .booking-right{
         img{
             width: 100%;
@@ -33,6 +34,50 @@
             font-size: 17px;
             // line-height: 124.5%;
             color: #5E6282;
+        }
+    }
+}
+
+// Responsive
+@media (max-width: 900px) {
+    .booking{
+        margin-top: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        // align-content: space-around;
+        gap:50px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .booking-right{
+            img{
+                width: 100%;
+                height: 100%;  
+                object-fit: contain;
+            }
+        }
+        .booking_steps{
+            gap: 21px;
+            align-items: center;
+            margin-top: 36px;
+            p{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 124.5%;
+                color: #5E6282;
+                margin-top: 4px;
+            }
+            h6{
+                margin: 0;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 17px;
+                // line-height: 124.5%;
+                color: #5E6282;
+            }
         }
     }
 }

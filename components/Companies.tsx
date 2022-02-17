@@ -3,7 +3,7 @@ import React from 'react';
 const Companies = () => {
     return (
         <>
-            <div className='mx-auto'>
+            <div className='mx-auto companies'>
                 <img src={"/icons/companies/logos.svg"} />
             </div>
         </>

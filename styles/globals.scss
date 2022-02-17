@@ -4,9 +4,16 @@ body {
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
+
+
 .container{
   position: relative;
 }
@@ -60,4 +67,12 @@ body {
 }
 ul{
   padding-left: 0;
+}
+li{
+  list-style: none;
+}
+
+.companies{
+  width: 100%;
+  overflow-x: scroll;
 }

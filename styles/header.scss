@@ -42,6 +42,7 @@
         }
         .hero{
             display: flex;
+            // flex-direction: column;
             .secondary-text{
                 font-family: Poppins;
                 font-style: normal;
@@ -57,7 +58,6 @@
                 font-weight: bold;
                 font-size: 70px;
                 line-height: 100px;
-                // letter-spacing: -0.04em;
                 color: #181E4B;
                 .underline-container{
                     position: relative;
@@ -103,11 +103,65 @@
         }
     }
     
-    
-
-    
 }
 
-li{
-    list-style: none;
+// Responsive
+@media (max-width: 900px) {
+    .header{
+        .header-content-container{
+            margin-left: 20px;
+            margin-right: 20px;
+            nav{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                ul{
+                    display: none;
+                } 
+            }
+            .hero{
+                display: flex;
+                overflow-x: hidden;
+                flex-direction: column;
+                gap: 50px;
+                .hero-right{
+                    width: 100%;
+                    margin-left: -40px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .secondary-text{
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+                .primary-text{
+                    font-size: 37px;
+                    line-height: 66px;
+                    .underline-text{
+                        margin-top: -10px;
+                        margin-left: -30px;
+                        width: 150%;
+                    }
+                }
+                .tertiary-text{
+                    font-size: 15px;
+                    line-height: 30px;
+                }
+                .cta{
+                    button{
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 19px;
+                      
+                    }
+                }
+            }
+        }
+        
+    }
 }
+
+
+

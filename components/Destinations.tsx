@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 const Destinations = () => {
@@ -14,52 +15,64 @@ const Destinations = () => {
                    
                 </div>
                 <div className='destination-cards-container'>
-                    <div className='destinations-card'>
-                        <div className='destination-img'>
-                            <img src="/icons/destinations/rome.png"/>
-                        </div>
-                        <div className='card-content'>
-                            <div className='line-1 d-flex'>
-                                <p>Rome, Italty</p>
-                                <p>$5,42k</p>
+                    <motion.div
+                        whileHover={{ scale: 1.1 }}
+                    >
+                        <div className='destinations-card'>
+                            <div className='destination-img'>
+                                <img src="/icons/destinations/rome.png"/>
                             </div>
-                            <div className='line-2 d-flex'>
-                                <img src="/icons/destinations/navigation.svg"/>
-                                <p>10 Days Trip</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='destinations-card'>
-                        <div className='destination-img'>
-                            <img src="/icons/destinations/london.png"/>
-                        </div>
-                        <div className='card-content'>
-                            <div className='line-1 d-flex'>
-                                <p>London, UK</p>
-                                <p>$4.2k</p>
-                            </div>
-                            <div className='line-2 d-flex'>
-                                <img src="/icons/destinations/navigation.svg"/>
-                                <p>12 Days Trip</p>
+                            <div className='card-content'>
+                                <div className='line-1 d-flex'>
+                                    <p>Rome, Italty</p>
+                                    <p>$5,42k</p>
+                                </div>
+                                <div className='line-2 d-flex'>
+                                    <img src="/icons/destinations/navigation.svg"/>
+                                    <p>10 Days Trip</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='destinations-card spring'>
-                        <div className='floating-spring' />
-                        <div className='destination-img'>
-                            <img src="/icons/destinations/europe.png"/>
-                        </div>
-                        <div className='card-content'>
-                            <div className='line-1 d-flex'>
-                                <p>Full Europe</p>
-                                <p>$15k</p>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.1 }}
+                    >
+                        <div className='destinations-card'>
+                            <div className='destination-img'>
+                                <img src="/icons/destinations/london.png"/>
                             </div>
-                            <div className='line-2 d-flex'>
-                                <img src="/icons/destinations/navigation.svg"/>
-                                <p>28 Days Trip</p>
+                            <div className='card-content'>
+                                <div className='line-1 d-flex'>
+                                    <p>London, UK</p>
+                                    <p>$4.2k</p>
+                                </div>
+                                <div className='line-2 d-flex'>
+                                    <img src="/icons/destinations/navigation.svg"/>
+                                    <p>12 Days Trip</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.1 }}
+                    >
+                        <div className='destinations-card spring'>
+                            <div className='floating-spring' />
+                            <div className='destination-img'>
+                                <img src="/icons/destinations/europe.png"/>
+                            </div>
+                            <div className='card-content'>
+                                <div className='line-1 d-flex'>
+                                    <p>Full Europe</p>
+                                    <p>$15k</p>
+                                </div>
+                                <div className='line-2 d-flex'>
+                                    <img src="/icons/destinations/navigation.svg"/>
+                                    <p>28 Days Trip</p>
+                                </div>
+                            </div>
+                        </div>
+                    </motion.div>
                 </div>
             </section>
         </>
