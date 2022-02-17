@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { motion } from "framer-motion";
+import { Spin as Hamburger } from 'hamburger-react';
 
 const Header = () => {
+    const [isOpen, setOpen] = useState(false);
     return (
         <>
             <header className='header'>
@@ -48,6 +50,7 @@ const Header = () => {
                             </motion.div>
                             </li>
                         </ul>
+                        <Hamburger toggled={isOpen} toggle={setOpen} />
                     </nav>
                     <div className='hero'>
                         <div className='hero-left'>

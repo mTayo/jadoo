@@ -2,6 +2,7 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 150px;
+    padding-bottom: 20px;
     .logo{
         p{
             font-family: Poppins;
@@ -96,10 +97,22 @@
                 color: #5E6282;
                 margin-top: 10px;
                 margin-bottom: 20px;
+                text-align: center;
             }
+            margin: 0 auto;
+            margin-top: -30px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid gainsboro;
+            padding-top: 20px;
+        }
+        .icon-container{
+            justify-content: center;
         }
         .download-links{
             gap:20px;
+            justify-content: center;
         }
     }
     .footer-gap{

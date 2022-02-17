@@ -4,7 +4,9 @@ const Companies = () => {
     return (
         <>
             <div className='mx-auto companies'>
-                <img src={"/icons/companies/logos.svg"} />
+                <div>
+                    <img src={"/icons/companies/logos.svg"} />
+                </div>
             </div>
         </>
     )
