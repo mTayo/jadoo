@@ -67,7 +67,7 @@ const Header = () => {
                             and full life
                             </div>
                             <p className='tertiary-text'>
-                                Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
                             </p>
                             <div className='cta'>
                                 <motion.div

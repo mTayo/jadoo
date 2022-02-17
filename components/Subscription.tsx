@@ -8,7 +8,7 @@ const Subscription = () => {
             <div className='subscription-box '>
                 <h5>
                     Subscribe to get information, latest news and other<br/>
-                    interesting offers about Jadoo  
+                    interesting offers from Jadoo  
                 </h5>
                 <div className="spiral_left_floating" />
                 <div className="spiral_right_floating"/>

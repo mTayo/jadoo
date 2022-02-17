@@ -26,7 +26,7 @@ const Services = () => {
                                 Calculated Weather 
                             </h5>
                             <p>
-                                Built Wicket longer admire do barton vanity itself do in it.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Services = () => {
                                  Best Flights
                             </h5>
                             <p>
-                                Engrossed listening. Park gate sell they west hard for the.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </p>
                         </div>
                         <div className='selected-card-floating' />
@@ -59,7 +59,7 @@ const Services = () => {
                                 Local Events 
                             </h5>
                             <p>
-                                Barton vanity itself do in it. Preferd to men it engrossed listening. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             </p>
                         </div>
                     </div>
@@ -76,8 +76,7 @@ const Services = () => {
                             </h5>
                             <p>
                             We deliver outsourced
-                            aviation services for
-                            military customers
+                            aviation services to our customers
                             </p>
                         </div>
                     </div>
