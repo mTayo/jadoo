@@ -13,7 +13,9 @@
     .header-content-container{
         margin-left: 50px;
         margin-right: 50px;
-
+        .toggle-nav{
+            display: none;
+        }
         nav{
             display: flex;
             justify-content: space-between;
@@ -111,6 +113,9 @@
         .header-content-container{
             margin-left: 20px;
             margin-right: 20px;
+            .toggle-nav{
+                display: block;
+            }
             nav{
                 display: flex;
                 justify-content: space-between;
