@@ -50,7 +50,10 @@ const Header = () => {
                             </motion.div>
                             </li>
                         </ul>
-                        <Hamburger toggled={isOpen} toggle={setOpen} />
+                        <div className='toggle-nav'>
+                            <Hamburger toggled={isOpen} toggle={setOpen} />
+                        </div>
+                        
                     </nav>
                     <div className='hero'>
                         <div className='hero-left'>
